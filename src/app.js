@@ -1,4 +1,3 @@
-import React from 'react';
 import Text from './components/Text';
 import ProductCard from './components/ProductCard';
 import Button from './components/Button';
