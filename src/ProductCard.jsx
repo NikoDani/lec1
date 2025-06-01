@@ -1,4 +1,4 @@
-export default function ProductCard({ name, description, price, quantity, color }) {
+export default function ProductCard({ name,description,price,quantity,color }) {
   return (
     <div style={{
       border: '1px solid #ccc',

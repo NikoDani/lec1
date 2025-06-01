@@ -1,24 +1,32 @@
-.text {
-  color: red;        /* you can change to what you want */
-  font-size: 20px;
-  text-align: center; /* or left, right */
+.center-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  gap: 24px; 
+  background-color: #ffffff;
 }
 
+.text{
+  color: red;
+  font-size: 20px;
+  text-align: center;
+}
 .product-card {
   border: 1px solid gray;
   border-radius: 10px;
   padding: 16px;
   width: 250px;
-  margin: 20px auto;
-  background-color: #f0f0f0; /* fallback color if no inline */
+  background-color: #f0f0f0;
+  text-align: center;
 }
-
 .product-name {
   font-size: 22px;
   margin-bottom: 8px;
 }
 
-.product-desc {
+.product-desc{
   font-size: 16px;
   margin-bottom: 12px;
 }
@@ -27,8 +35,7 @@
 .product-qty {
   font-weight: bold;
 }
-
-.btn {
+.btn{
   background-color: green;
   width: 160px;
   height: 40px;
@@ -37,4 +44,8 @@
   border: none;
   border-radius: 6px;
   cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.btn:hover{
+  background-color: darkgreen;
 }
