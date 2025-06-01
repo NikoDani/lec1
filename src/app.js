@@ -5,16 +5,14 @@ function App() {
   return (
     <div>
       <Text textContent="მოგესალმებით ბავშვებო" />
-
       <ProductCard
         name="ლეპტოპი"
         description="სწრაფი და კარგი"
         price={1200}
         quantity={3}
-       
       />
 
-      <Button text="შეიძინე" />
+      <Button text="შეიძინე"/>
     </div>
   );
 }
