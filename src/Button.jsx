@@ -1,5 +1,3 @@
-// src/components/Button.js
-
 export default function Button({ bgColor, width, height, text }) {
   return (
     <button style={{
@@ -16,9 +14,3 @@ export default function Button({ bgColor, width, height, text }) {
     </button>
   );
 }
-<Button
-  bgColor="green"
-  width="150px"
-  height="40px"
-  text="დაჭირე"
-/>

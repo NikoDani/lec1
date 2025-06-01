@@ -1,31 +1,21 @@
-import Text from './components/Text';
-import ProductCard from './components/ProductCard';
-import Button from './components/Button';
+import Text from './Text';
+import ProductCard from './ProductCard';
+import Button from './Button';
 
 function App() {
   return (
     <div>
-      <Text
-        textColor="purple"
-        textContent="გადახედე პროდუქტს"
-        textSize="28px"
-        textAlign="center"
-      />
+      <Text textContent="მოგესალმებით ბავშვებო" />
 
       <ProductCard
         name="ლეპტოპი"
-        description="სწრაფი და მსუბუქი"
-        price={999}
-        quantity={5}
-        color="#e3f2fd"
+        description="სწრაფი და კარგი"
+        price={1200}
+        quantity={3}
+        // No dynamic color, or add fixed class for color in CSS
       />
 
-      <Button
-        bgColor="#1976d2"
-        width="180px"
-        height="45px"
-        text="შეძენა"
-      />
+      <Button text="შეიძინე" />
     </div>
   );
 }

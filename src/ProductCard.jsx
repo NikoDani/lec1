@@ -1,5 +1,3 @@
-// src/components/ProductCard.js
-
 export default function ProductCard({ name, description, price, quantity, color }) {
   return (
     <div style={{
@@ -17,10 +15,4 @@ export default function ProductCard({ name, description, price, quantity, color 
     </div>
   );
 }
-    <ProductCard
-  name="წიგნი"
-  description="საინტერესო სათაური"
-  price={25}
-  quantity={10}
-  color="#f9f9f9"
-/>
+

@@ -1,5 +1,3 @@
-// src/components/Text.js
-
 export default function Text({ textColor, textContent, textSize, textAlign }) {
   return (
     <h1 style={{
@@ -11,9 +9,3 @@ export default function Text({ textColor, textContent, textSize, textAlign }) {
     </h1>
   );
 }
-<Text
-  textColor="blue"
-  textContent="მოგესალმებით ბავშვებო"
-  textSize="32px"
-  textAlign="center"
-/>

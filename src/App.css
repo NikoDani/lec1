@@ -1,6 +1,40 @@
-h1{
-  color: red;
+.text {
+  color: red;        /* you can change to what you want */
+  font-size: 20px;
+  text-align: center; /* or left, right */
 }
-.blue{
-  color: blue;
+
+.product-card {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 16px;
+  width: 250px;
+  margin: 20px auto;
+  background-color: #f0f0f0; /* fallback color if no inline */
+}
+
+.product-name {
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+.product-desc {
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.product-price,
+.product-qty {
+  font-weight: bold;
+}
+
+.btn {
+  background-color: green;
+  width: 160px;
+  height: 40px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
 }
